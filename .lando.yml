@@ -1,0 +1,13 @@
+name: cstvm9
+recipe: drupal9
+config:
+  webroot: web
+
+services:
+  d7db:
+    type: mariadb
+    creds:
+      user: drupal7db
+      password: drupal7db
+      database: drupal7db
+    portforward: true
