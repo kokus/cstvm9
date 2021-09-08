@@ -25,3 +25,9 @@
 /.env
 /.editorconfig
 /.gitattributes
+
+# Database backups
+db_backup/
+
+# Ignore pesky local Mac files
+.DS_Store
